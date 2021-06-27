@@ -18,6 +18,7 @@ export interface PickerIOSProps extends ViewProps {
 	onValueChange?: (itemValue: ItemValue, itemIndex: number) => void;
 	selectedValue?: ItemValue;
 	testID?: string;
+	numberOfLines?: number;
 }
 
 declare class PickerIOS extends React.Component<PickerIOSProps, {}> {
